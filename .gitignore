@@ -1,0 +1,62 @@
+# Node.js dependencies
+/node_modules/
+
+# Build directories
+/dist/
+/build/
+
+# Dependency directories
+/.pnp/
+/.pnp.js
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cypress Test Results
+/cypress/screenshots/
+/cypress/videos/
+
+# IDE and editor folders (e.g., VSCode, WebStorm)
+.vscode/
+/.idea/
+/.project/
+
+# npm package lock files (optional, can be committed)
+package-lock.json
+
+# Yarn files (if using Yarn)
+yarn.lock
+
+# Coverage folder (for code coverage reports)
+coverage/
+
+# Storybook files (if you're using Storybook)
+.storybook/
+
+# MacOS specific files
+._*
+
+# JetBrains IDE files
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+
+# NPM package cache
+.npm/
+
+# TypeScript files
+*.tsbuildinfo
+
+# Miscellaneous
+*.tgz

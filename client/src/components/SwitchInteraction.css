@@ -1,0 +1,25 @@
+/* SwitchInteraction.css */
+.interaction-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4; /* Soft grey background */
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #a8a8a8; /* Soft grey button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #808080; /* Darker grey on hover */
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}

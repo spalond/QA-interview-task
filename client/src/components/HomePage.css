@@ -1,0 +1,160 @@
+/* HomePage.css */
+.homepage {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #e0e0e0, #f4f4f4); /* Gradient background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-item {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+/* Add New Item and Delete All Items Buttons Container */
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px; /* Space below the buttons */
+}
+
+.delete-all-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-all-button:hover {
+    background-color: #c0392b;
+}
+
+/* Drag-and-Drop Styles */
+.drag-and-drop {
+    border: 2px dashed #333;
+    padding: 20px;
+    margin: 20px;
+    min-height: 150px;
+}
+
+.drag-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.drag-item {
+    background-color: #a8a8a8;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-item:hover {
+    background-color: #808080;
+}
+
+/* Modal Overlay and Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #808080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .homepage {
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .menu-item {
+        font-size: 16px;
+    }
+}
+

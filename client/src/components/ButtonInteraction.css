@@ -1,0 +1,26 @@
+/* ButtonInteraction.css */
+.interaction-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4; /* Soft grey background */
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #a8a8a8; /* Soft grey color for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #808080; /* Darker grey on hover */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
