@@ -44,7 +44,6 @@ h2 {
     text-decoration: underline;
 }
 
-/* Add New Item and Delete All Items Buttons Container */
 .button-container {
     display: flex;
     gap: 10px; /* Space between buttons */
