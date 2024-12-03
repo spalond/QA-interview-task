@@ -27,7 +27,7 @@ git clone https://github.com/metalukask/QA-interview-task
    ```bash
    npm start
    ```
-   The server will run at `http://localhost:5001`.
+   The server will run at `http://localhost:8000`.
 
 ### Step 3: Set up the Frontend (React)
 1. Navigate to the `/client` directory:
@@ -61,6 +61,19 @@ After logging in, you will be redirected to the homepage, where you can navigate
 ### Troubleshooting
 - If the React app is not connecting to the backend, ensure that both the frontend and backend are running simultaneously.
 - Make sure the backend is running on port `5001`, and the frontend is on port `3000`.
+
+---
+
+### Disclaimer
+- Web Application Created by QA Engineer Using AI. 
+
+This website was developed as part of an assignment for conducting QA Engineer interviews.
+The website was created by a QA Engineer using Artificial Intelligence (AI) tools to simulate a real-world 
+web application for interview purposes. The purpose of this project is to demonstrate practical 
+examples of how QA Engineers can use Cypress for UI testing, API testing, and automation, as well as to 
+evaluate candidates' skills in writing and executing automated test cases.
+
+Note: The AI-generated content, including code and components, is intended for educational, testing, and development purposes.
 
 ---
 

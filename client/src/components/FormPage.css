@@ -56,7 +56,7 @@ button:hover {
 
 /* Back Button Styling */
 .back-button {
-    background-color: #808080;
+    background-color: #808080; /* Same grey color */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -79,7 +79,6 @@ button:hover {
 
 /* Saved Data Section */
 .saved-data {
-    margin-top: 30px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;

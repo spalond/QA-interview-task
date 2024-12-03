@@ -2,13 +2,13 @@ const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const app = express();
-const PORT = 5001;
+const PORT = 8000;
 
-// Use CORS middleware to allow requests from localhost:3000
+// Use CORS middleware to allow requests
 app.use(cors({
-    origin: 'http://localhost:3000',  // Allow only frontend on localhost:3000
-    methods: ['GET', 'POST', 'OPTIONS'],  // Allow these methods
-    allowedHeaders: ['Content-Type', 'Authorization'] // Allow these headers
+    origin: '*',
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 app.use(express.json());

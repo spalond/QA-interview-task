@@ -19,7 +19,7 @@ const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5001/login', { username, password });
+      const response = await axios.post('http://localhost:8000/login', { username, password });
       localStorage.setItem('token', response.data.token);
       navigate('/home'); // Redirect to home on successful login
     } catch (err) {
