@@ -11,7 +11,7 @@ This project contains a React frontend and a Node.js backend.
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/metalukask/qa-interview
+git clone https://github.com/metalukask/QA-interview-task
 ```
 
 ### Step 2: Set up the Backend (Node.js)
