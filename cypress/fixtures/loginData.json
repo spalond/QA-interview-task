@@ -1,0 +1,7 @@
+{
+  "loginPageUrl": "/login",
+  "username": "admin",
+  "password": "admin321",
+  "loginAPI": "http://localhost:8000/login",
+  "homeAPI" : "http://localhost:8000/home"
+}
